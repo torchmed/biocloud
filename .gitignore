@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+data/
+devlog.txt
+db.sqlite3
+.idea
+*.env
