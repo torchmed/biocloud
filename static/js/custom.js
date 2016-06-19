@@ -6,7 +6,8 @@ $(window).load(function(){
 $(function() {
     new WOW().init();
     $('.templatemo-nav').singlePageNav({
-    	offset: 70
+    	offset: 70,
+        filter: ':not(.external)'
     });
 
     /* Hide mobile menu after clicking on a link

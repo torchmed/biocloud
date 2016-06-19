@@ -494,3 +494,12 @@ footer
         }
 }
 /* end media 360 */
+
+
+.vertical-form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+}

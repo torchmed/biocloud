@@ -21,9 +21,7 @@ from . import views
 
 urlpatterns = [
     
-    url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index, name='index'),
-    url(r'^dashboard/', views.dashboard, name='dashboard'),
-    url(r'^accounts/', include('allauth.urls')),
-    url(r'^files/', include('files.urls')),
+    url(r'^$', views.index, name='files_index'),
+    url(r'^upload/', views.upload, name='upload'),
+
 ]
